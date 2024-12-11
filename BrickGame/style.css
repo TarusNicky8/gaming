@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+#game-container {
+    position: relative;
+    width: 600px;
+    height: 400px;
+    margin: 20px auto;
+    background-color: #000;
+    border: 2px solid #ccc;
+    overflow: hidden;
+}
+
+#paddle {
+    position: absolute;
+    bottom: 10px;
+    left: 250px;
+    width: 100px;
+    height: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+#ball {
+    position: absolute;
+    top: 300px;
+    left: 290px;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+}
+
+.brick {
+    position: absolute;
+    width: 60px;
+    height: 20px;
+    background-color: blue;
+    border: 1px solid white;
+    border-radius: 5px;
+}
